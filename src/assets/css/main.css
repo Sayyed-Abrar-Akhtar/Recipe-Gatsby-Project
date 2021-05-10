@@ -232,6 +232,10 @@ button.block {
   color: #711c1b;
 }
 
+.entity-cutlery {
+  color: var(--primary-700);
+}
+
 /* Basic Classes */
 .alert {
   padding: 0.375rem 0.75rem;
