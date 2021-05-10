@@ -4,6 +4,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { BsClockHistory, BsClock, BsPeople } from "react-icons/bs"
 
 import Layout from "../components/Layout"
+import Seo from "../components/Seo"
 
 /* rendering recipe using FILE SYSTEM API ==> {ContentfulRecipe.title}.js */
 const RecipeTemplate = ({ data }) => {
@@ -20,6 +21,7 @@ const RecipeTemplate = ({ data }) => {
   const { ingredients, instructions, tags, tools } = content
   return (
     <Layout>
+      <Seo title={title} description={description} />
       <main className="page">
         <div className="recipe-page">
           {/* hero */}

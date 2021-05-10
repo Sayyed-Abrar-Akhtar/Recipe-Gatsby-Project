@@ -3,11 +3,13 @@ import React from "react"
 import Layout from "../components/Layout"
 import { graphql, Link } from "gatsby"
 import setupTags from "../utils/setupTags"
+import Seo from "../components/Seo"
 
 const Tags = ({ data }) => {
   const newTags = setupTags(data.allContentfulRecipe.nodes)
   return (
     <Layout>
+      <Seo title="Tags" />
       <main className="page">
         <section className="tags-page">
           {newTags.map((tag, index) => {
