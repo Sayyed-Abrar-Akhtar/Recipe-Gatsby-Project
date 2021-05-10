@@ -18,7 +18,7 @@ const index = () => {
           />
           <div className="hero-container">
             <div className="hero-text">
-              <h1>Recipes Hot</h1>
+              <h1>Recipes Hot&#127798;</h1>
               <h4>All about hot and spicy food</h4>
             </div>
           </div>

@@ -15,7 +15,7 @@ const About = ({
       <main className="page">
         <section className="about-page">
           <article>
-            <h2>&#127869; All about Hot & Spicy Foods</h2>
+            <h2>All about Hot & Spicy Foods &#127869; </h2>
             <p>
               How lucky we are today – all delicious food is easily available to
               us! Sometimes, I wonder how life was in the ancient past when our

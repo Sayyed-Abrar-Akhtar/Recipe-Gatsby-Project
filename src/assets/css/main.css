@@ -680,11 +680,11 @@ form > *:last-child {
 
 .tags-page {
   display: grid;
-  gap: 2rem;
+  gap: 1.5rem;
   padding-bottom: 3rem;
 }
 .tag {
-  background: var(--grey-700);
+  background: var(--grey-1000);
   border-radius: var(--borderRadius);
   text-align: center;
   color: var(--white);
